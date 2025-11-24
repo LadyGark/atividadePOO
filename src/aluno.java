@@ -4,11 +4,11 @@ void main() {
 }
 
 public class Aluno {
-    private String nome;
-    private String email;
-    private int matricula;
-    private String sala;
-    private int periodo;
+     String nome;
+     String email;
+     int matricula;
+     String sala;
+     int periodo;
 
 
     Aluno (String nome, String email, int matricula, String sala, int periodo){

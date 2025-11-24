@@ -6,13 +6,41 @@ public class Disciplina {
     private int capacidadeMaxima;
 
 
-    List<Aluno> inscritos;
+   // List<Aluno> inscritos; //???????ww
 
-    boolean isLotada()
+   // boolean isLotada() //?????
 
-    List<Aluno> getAlunos()
+   // List<Aluno> getAlunos() ????????w
 
+    Disciplina (String codigo, String titulo, int capacidadeMaxima){
+        this.codigo = codigo;
+        this.titulo = titulo;
+        this.capacidadeMaxima = capacidadeMaxima;
 
+    }
 
+    public String getCodigo(){
+        return codigo;
+    }
+
+    public String getTitulo() {
+        return titulo;
+    }
+
+    public int getCapacidadeMaxima() {
+        return capacidadeMaxima;
+    }
+
+    public void setCodigo(String codigo) {
+        this.codigo = codigo;
+    }
+
+    public void setTitulo(String titulo) {
+        this.titulo = titulo;
+    }
+
+    public void setCapacidadeMaxima(int capacidadeMaxima) {
+        this.capacidadeMaxima = capacidadeMaxima;
+    }
 
 }
