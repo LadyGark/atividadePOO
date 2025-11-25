@@ -6,20 +6,20 @@ public class Disciplina {
     private int capacidadeMaxima;
 
 
-   // List<Aluno> inscritos; //???????ww
+    // List<Aluno> inscritos; //???????ww
 
-   // boolean isLotada() //?????
+    // boolean isLotada() //?????
 
-   // List<Aluno> getAlunos() ????????w
+    // List<Aluno> getAlunos() ????????w
 
-    Disciplina (String codigo, String titulo, int capacidadeMaxima){
+    Disciplina(String codigo, String titulo, int capacidadeMaxima) {
         this.codigo = codigo;
         this.titulo = titulo;
         this.capacidadeMaxima = capacidadeMaxima;
 
     }
 
-    public String getCodigo(){
+    public String getCodigo() {
         return codigo;
     }
 
