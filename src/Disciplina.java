@@ -6,20 +6,21 @@ public class Disciplina {
     private int capacidadeMaxima;
 
 
-   // List<Aluno> inscritos; //???????ww
 
-   // boolean isLotada() //?????
+   // List<Aluno> = new ArrayList<Aluno>();
 
-   // List<Aluno> getAlunos() ????????w
+    // boolean isLotada() //?????
 
-    Disciplina (String codigo, String titulo, int capacidadeMaxima){
+    // List<Aluno> getAlunos() ????????
+
+    Disciplina(String codigo, String titulo, int capacidadeMaxima) {
         this.codigo = codigo;
         this.titulo = titulo;
         this.capacidadeMaxima = capacidadeMaxima;
 
     }
 
-    public String getCodigo(){
+    public String getCodigo() {
         return codigo;
     }
 
@@ -43,4 +44,8 @@ public class Disciplina {
         this.capacidadeMaxima = capacidadeMaxima;
     }
 
+}
+
+
+void main() {
 }

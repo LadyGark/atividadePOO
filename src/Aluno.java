@@ -4,14 +4,14 @@ void main() {
 }
 
 public class Aluno {
-     String nome;
-     String email;
-     int matricula;
-     String sala;
-     int periodo;
+    String nome;
+    String email;
+    int matricula;
+    String sala;
+    int periodo;
 
 
-    Aluno (String nome, String email, int matricula, String sala, int periodo){
+    Aluno(String nome, String email, int matricula, String sala, int periodo) {
         this.nome = nome;
         this.email = email;
         this.matricula = matricula;
@@ -20,7 +20,7 @@ public class Aluno {
 
     }
 
-    Aluno (String nome, String email){
+    Aluno(String nome, String email) {
         this.nome = nome;
         this.email = email;
 
