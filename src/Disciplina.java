@@ -5,12 +5,13 @@ public class Disciplina {
     private String titulo;
     private int capacidadeMaxima;
 
+    //???????
 
-    // List<Aluno> inscritos; //???????ww
+    List<Aluno> = new ArrayList<Aluno>();
 
     // boolean isLotada() //?????
 
-    // List<Aluno> getAlunos() ????????w
+    // List<Aluno> getAlunos() ????????
 
     Disciplina(String codigo, String titulo, int capacidadeMaxima) {
         this.codigo = codigo;
@@ -43,4 +44,8 @@ public class Disciplina {
         this.capacidadeMaxima = capacidadeMaxima;
     }
 
+}
+
+
+void main() {
 }
