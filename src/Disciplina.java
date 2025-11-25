@@ -5,9 +5,9 @@ public class Disciplina {
     private String titulo;
     private int capacidadeMaxima;
 
-    //???????
 
-    List<Aluno> = new ArrayList<Aluno>();
+
+   // List<Aluno> = new ArrayList<Aluno>();
 
     // boolean isLotada() //?????
 
