@@ -1,17 +1,13 @@
 
-
-void main() {
-}
-
 public class Aluno {
-    String nome;
-    String email;
-    int matricula;
-    String sala;
-    int periodo;
+    private String nome;
+    private String email;
+    private int matricula;
+    private String sala;
+    private int periodo;
 
 
-    Aluno(String nome, String email, int matricula, String sala, int periodo) {
+    Aluno(String leo, String mail, int i1, String nome, int i) {
         this.nome = nome;
         this.email = email;
         this.matricula = matricula;
@@ -26,11 +22,11 @@ public class Aluno {
 
     }
 
-    public String Getnome() {
+    public String getNome() {
         return nome;
     }
 
-    public String Getemail() {
+    public String getEmail() {
         return email;
 
     }
@@ -63,8 +59,7 @@ public class Aluno {
         this.sala = sala;
     }
 
-    public void setPeriodo(int periodo) {
+    public void setPeriodo() {
         this.periodo = periodo;
     }
-
 }
