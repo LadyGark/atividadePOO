@@ -1,23 +1,25 @@
 import java.util.List;
+import java.util.ArrayList;
 
 public class Disciplina {
     private String codigo;
     private String titulo;
     private int capacidadeMaxima;
 
+    private ArrayList<Aluno> inscritos = new ArrayList<Aluno>();
 
-
-   // List<Aluno> = new ArrayList<Aluno>();
-
-    // boolean isLotada() //?????
-
-    // List<Aluno> getAlunos() ????????
-
-    Disciplina(String codigo, String titulo, int capacidadeMaxima) {
+    public Disciplina(String codigo, String titulo, int capacidadeMaxima) {
         this.codigo = codigo;
         this.titulo = titulo;
         this.capacidadeMaxima = capacidadeMaxima;
+    }
 
+    public boolean isLotada() {
+        return inscritos.size() >= capacidadeMaxima;
+    }
+
+    public List<Aluno> getAlunos() {
+        return inscritos;
     }
 
     public String getCodigo() {
@@ -44,8 +46,7 @@ public class Disciplina {
         this.capacidadeMaxima = capacidadeMaxima;
     }
 
-}
-
-
-void main() {
+    public List<Aluno> getInscritos() {
+        return inscritos;
+    }
 }
